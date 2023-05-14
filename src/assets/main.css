@@ -1,0 +1,40 @@
+@import "@csstools/normalize.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --var-title-color: #333;
+  --var-btn-color: #862583;
+  --var-btn-border-color: #b2b2b2;
+  --var-bg: #f5f8fa;
+  --var-txt-color: #384a5c;
+}
+
+#app {
+  margin: 0 auto;
+  max-width: 1180px;
+  font-family: Roboto, sans-serif;
+  color: var(--var-txt-color);
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+}
+
+button {
+  display: inline-block;
+}
