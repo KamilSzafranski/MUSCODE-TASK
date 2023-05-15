@@ -35,13 +35,13 @@
         <Label class="formLabel">
           Waluta
           <select name="currency" class="formSelect">
-            <option value="$" :selected="this.products.currency === value">
+            <option value="$" :selected="dataToRender[0].currency === `$`">
               $
             </option>
-            <option value="PLN" :selected="this.products.currency === value">
+            <option value="PLN" :selected="dataToRender[0].currency === `PLN`">
               PLN
             </option>
-            <option value="EUR" :selected="this.products.currency === value">
+            <option value="EUR" :selected="dataToRender[0].currency === `EUR`">
               EUR
             </option>
           </select>

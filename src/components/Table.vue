@@ -27,7 +27,6 @@
 <script>
 export default {
   props: ["products"],
-  mounted() {},
 };
 </script>
 <style scoped>

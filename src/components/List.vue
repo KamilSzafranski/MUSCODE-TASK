@@ -25,6 +25,10 @@ import ToDo from "./ToDo.vue";
 import Table from "./Table.vue";
 import Product from "./Product.vue";
 import Modal from "./Modal.vue";
+import img1 from "../assets/img1.png";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+
 export default {
   components: {
     ToDo,
@@ -42,7 +46,7 @@ export default {
           price: 1000,
           salePrice: 649,
           currency: "$",
-          img: "src/images/img1.png",
+          img: [img1],
         },
         {
           id: nanoid(),
@@ -50,7 +54,7 @@ export default {
           price: 800,
           salePrice: 600,
           currency: "$",
-          img: "src/images/img2.png",
+          img: [img2],
         },
         {
           id: nanoid(),
@@ -58,7 +62,7 @@ export default {
           price: 8000,
           salePrice: null,
           currency: "PLN",
-          img: "src/images/img3.png",
+          img: [img3],
         },
       ],
     };

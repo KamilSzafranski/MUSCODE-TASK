@@ -7,7 +7,7 @@ import svgLoader from "vite-svg-loader";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: "https://kamilszafraski.github.io/MUSCODE-TASK",
+  base: "/MUSCODE-TASK/",
   plugins: [vue(), vueJsx(), svgLoader()],
   resolve: {
     alias: {
